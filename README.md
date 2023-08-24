@@ -25,17 +25,13 @@ The project is structured as follows:
 
 1. Clone this repository to your local machine:
 
-   ```bash
-   git clone https://github.com/yourusername/music-app.git
+        git clone https://github.com/yourusername/music-app.git
+
 Navigate to the project directory:
 
-bash
-
-cd music-app
+    cd music-app
 
 Install the required dependencies:
-
-bash
 
     npm install
 
@@ -45,19 +41,15 @@ To start the application, follow the instructions for running a React Native app
 
 For example, to run the app on an Android emulator:
 
-bash
-
-npx react-native run-android
+    npx react-native run-android
 
 Usage
 
 The app displays a list of songs fetched from the music_data.json file. It provides the following features:
 
-    Search Bar: Allows you to search for songs by title. Enter a search query to filter the displayed songs based on the title.
-
-    Show Sold Out: Toggle switch that filters the list to show only available songs (isSoldOut: false) or all songs (isSoldOut: true and isSoldOut: false).
-
-    Song Cards: Each song is displayed as a card, containing relevant information.
+  - Search Bar: Allows you to search for songs by title. Enter a search query to filter the displayed songs based on the title.
+  - Show Sold Out: Toggle switch that filters the list to show only available songs (isSoldOut: false) or all songs (isSoldOut: true and isSoldOut: false).
+  - Song Cards: Each song is displayed as a card, containing relevant information.
 
 License
 
